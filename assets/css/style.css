@@ -8,6 +8,19 @@ a {
   color: inherit;
 }
 
+.producto {
+  width: 200px;
+  border: solid;
+  display: inline;
+  position: relative;
+  margin: 10px;
+}
+
+.modelo {
+  margin: 10px;
+  border: solid;
+}
+
 /*Header*/
 .logo {
   width: 50px;
@@ -45,7 +58,7 @@ body {
 
 /*INDEX*/
 .img-indx:hover {
-  transform: scale(1.5, 1);
+  transform: scale(1.2, 1);
   transition: 0.5s;
 }
 
@@ -67,17 +80,6 @@ body {
   padding-left: 280px;
 }
 
-.producto {
-  width: 200px;
-  border: solid;
-  display: inline;
-  position: relative;
-}
-.productohover {
-  transform: scale(1.1);
-  transition: 0.5s;
-}
-
 /*Contactos*/
 form {
   padding: 20px;
@@ -89,6 +91,15 @@ form {
 /*Productos*/
 .h2-produc {
   padding-left: 425px;
+}
+
+.producto:hover {
+  transform: scale(1.05);
+  transition: 1s;
+}
+
+.modelo:hover {
+  background-color: rgba(238, 71, 66, 0.8980392157);
 }
 
 /*Nosotros*/

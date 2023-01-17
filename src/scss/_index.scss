@@ -1,7 +1,7 @@
 /*INDEX*/
 
 .img-indx:hover{
-    transform: scale(1.5,1);
+    transform: scale(1.2,1);
     transition: 0.5s;
 }
 
@@ -22,13 +22,3 @@
     padding-left: 280px;
 }
 
-.producto{
-    width: 200px;
-    border: solid;
-    display: inline;
-    position: relative;
-    &hover{
-        transform: scale(1.1);
-        transition: 0.5s;
-    }
-}
