@@ -16,6 +16,6 @@
 .modelo{
     @extend %modelo;
     &:hover{
-        background-color: adjust-hue($color: #ee4742e5, $degrees: 0);
-    }
+       background-color:adjust-hue($color: #f81f1f, $degrees: 0);
+}
 }
