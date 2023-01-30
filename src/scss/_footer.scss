@@ -9,8 +9,16 @@ footer{
     .redes{
         margin: 5px;
         display: flex;
-        padding: 10px;
-        font-size: 50px;
+        flex-direction: column;
+        padding: 5px;
+        font-size: 30px;
+        color: azure;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        font-size: 15px; 
+        padding: 2px;  
         color: azure;
     }
     .sucursal{
@@ -21,6 +29,7 @@ footer{
     padding-right: 20px;
     padding-bottom: 15px;
     padding-left: 10px;
+    color: azure;
     }
 }
 
